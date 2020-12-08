@@ -1,0 +1,6 @@
+#!/bin/bash
+yum update -y
+yum -y install httpd
+yum -y install curl
+service httpd start
+chkconfig httpd on
